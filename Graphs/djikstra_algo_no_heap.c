@@ -3,6 +3,9 @@ Djikstra's algortihm in C, implemented on a graph represented by an adjacency ma
 Calculates shortest path from a given source vertex to all other vertices. 
 This algorithm works ideally for a directed acyclic graph with positive edge weights only. 
 The adjMatrix consists of edge weights as entries, and in case an edge doesnt exist, it will be INT_MAX by default.
+
+Implemented WITHOUT min-heap so takes O(N^2) time. 
+
 */
 
 #include <stdio.h>
