@@ -2,6 +2,9 @@
 Topological Sort in C, implemented on a graph represented using an adjacency list
 Only works for directed graphs. 
 In case of cycles - the sort fails. 
+
+Implemented WITHOUT queues, so takes O(N^2) time. 
+
 */
 
 #include <stdio.h>
